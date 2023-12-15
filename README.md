@@ -9,13 +9,13 @@ In the previous sections, you updated your `README.md` file with your conclusion
 ## Comparative Analysis of SVC Model Returns vs. Actual Returns
 
 # Model Trial 1 Parameters and Summary
-Short Window = 4
-Long Window = 100
-DateOffset = 3 months
+Short Window = 4  
+Long Window = 100  
+DateOffset = 3 months  
 
-Review of F1 Scores:
--1.0 returned a score of 0.07
-1.0 returned a score of 0.71
+Review of F1 Scores:  
+-1.0 returned a score of 0.07  
+1.0 returned a score of 0.71  
 
 This identifies that the model was better at identifying a buy setup better than a sell setup.
 
@@ -24,13 +24,13 @@ Comparison of cumulative returns can be seen in the graph below and identifies t
 ![SMA4-100-3month](/Images/sma4_100_3months.png)
 
 # Model Trial 2 Parameters and Summary
-Short Window = 4
-Long Window = 100
-DateOffset = 12 months
+Short Window = 4  
+Long Window = 100  
+DateOffset = 12 months  
 
-Review of F1 Scores:
--1.0 returned a score of 0.00
-1.0 returned a score of 0.72
+Review of F1 Scores:  
+-1.0 returned a score of 0.00  
+1.0 returned a score of 0.72  
 
 This identifies that the model was better at identifying a buy setup better than a sell setup. With a 0.00 precision and recall as well for the sell setup.
 
@@ -39,13 +39,13 @@ Comparison of cumulative returns can be seen in the graph below and identifies t
 ![SMA4-100-12month](/Images/sma4_100_12months.png)
 
 # Model Trial 3 Parameters and Summary
-Short Window = 9
-Long Window = 20
-DateOffset = 3 months
+Short Window = 9  
+Long Window = 20  
+DateOffset = 3 months  
 
-Review of F1 Scores:
--1.0 returned a score of 0.00
-1.0 returned a score of 0.72
+Review of F1 Scores:  
+-1.0 returned a score of 0.00  
+1.0 returned a score of 0.72  
 
 This identifies that the model was better at identifying a buy setup better than a sell setup. with a 0.00 precision and recall as well for the sell setup
 
@@ -54,13 +54,13 @@ Comparison of cumulative returns can be seen in the graph below and identifies t
 ![SMA9-20-3month](/Images/sma9_20_3months.png)
 
 # Model Trial 4 Parameters and Summary
-Short Window = 9
-Long Window = 20
-DateOffset = 12 months
+Short Window = 9  
+Long Window = 20  
+DateOffset = 12 months  
 
-Review of F1 Scores:
--1.0 returned a score of 0.00
-1.0 returned a score of 0.72
+Review of F1 Scores:  
+-1.0 returned a score of 0.00  
+1.0 returned a score of 0.72  
 
 This identifies that the model was better at identifying a buy setup better than a sell setup. with a 0.00 precision and recall as well for the sell setup
 
@@ -69,13 +69,13 @@ Comparison of cumulative returns can be seen in the graph below and identifies t
 ![SMA9-20-12month](/Images/sma9_20_12months.png)
 
 # Model Trial 5 Parameters and Summary
-Short Window = 50
-Long Window = 200
-DateOffset = 12 months
+Short Window = 50  
+Long Window = 200  
+DateOffset = 12 months  
 
-Review of F1 Scores:
--1.0 returned a score of 0.52
-1.0 returned a score of 0.45
+Review of F1 Scores:  
+-1.0 returned a score of 0.52  
+1.0 returned a score of 0.45  
 
 This identifies that the model was better at identifying a sell setup better than a buy setup.
 
@@ -84,13 +84,13 @@ Comparison of cumulative returns identifies that the model outperforms the actua
 ![SMA50-200-12month](/Images/sma50_200_12months.png)
 
 # Model Trial 6 Parameters and Summary
-Short Window = 50
-Long Window = 200
-DateOffset = 24 months
+Short Window = 50  
+Long Window = 200  
+DateOffset = 24 months  
 
-Review of F1 Scores:
--1.0 returned a score of 0.46
-1.0 returned a score of 0.57
+Review of F1 Scores:  
+-1.0 returned a score of 0.46  
+1.0 returned a score of 0.57  
 
 This identifies that the model was better at identifying a buy setup better than a sell setup.
 
@@ -101,13 +101,13 @@ Comparison of cumulative returns identifies that the model outperforms the actua
 ## AdaBoost Returns vs. Actual Returns
 
 # Model Parameters and Summary
-Short Window = 4
-Long Window = 100
-DateOffset = 3 months
+Short Window = 4  
+Long Window = 100  
+DateOffset = 3 months  
 
-Review of F1 Score:
--1.0 returned a score of 0.13
-1.0 returns a score of 0.70
+Review of F1 Score:  
+-1.0 returned a score of 0.13  
+1.0 returns a score of 0.70  
 
 This identife sthat the model was better at identifying a buy setup better than a sell setup.
 
