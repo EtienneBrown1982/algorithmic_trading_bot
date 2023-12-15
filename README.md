@@ -4,7 +4,7 @@ In the previous sections, you updated your `README.md` file with your conclusion
 
 # Machine Learning Trading Bot Evaluation Report
 
-![Decorative image.](../Images/14-challenge-image.png)
+![Decorative image.](/Images/14-challenge-image.png)
 
 ## Comparative Analysis of SVC Model Returns vs. Actual Returns
 
@@ -21,7 +21,7 @@ This identifies that the model was better at identifying a buy setup better than
 
 Comparison of cumulative returns can be seen in the graph below and identifies that the SVC model had slightly larger percentage gains than the actual returns with 1.520 vs 1.388 being the respective returns.
 
-![SMA4-100-3month](../Images/sma4_100_3months.png)
+![SMA4-100-3month](/Images/sma4_100_3months.png)
 
 # Model Trial 2 Parameters and Summary
 Short Window = 4
@@ -36,7 +36,7 @@ This identifies that the model was better at identifying a buy setup better than
 
 Comparison of cumulative returns can be seen in the graph below and identifies that the SVC matches the actual returns exactly. This makes sense becuase the model is not able to identify a sell point, so the model would exactly track the actual returns.
 
-![SMA4-100-12month](../Images/sma4_100_12months.png)
+![SMA4-100-12month](/Images/sma4_100_12months.png)
 
 # Model Trial 3 Parameters and Summary
 Short Window = 9
@@ -51,7 +51,7 @@ This identifies that the model was better at identifying a buy setup better than
 
 Comparison of cumulative returns can be seen in the graph below and identifies that the SVC matches the actual returns exactly. This makes sense becuase the model is not able to identify a sell point, so the model would exactly track the actual returns.
 
-![SMA9-20-3month](../Images/sma9_20_3months.png)
+![SMA9-20-3month](/Images/sma9_20_3months.png)
 
 # Model Trial 4 Parameters and Summary
 Short Window = 9
@@ -66,7 +66,7 @@ This identifies that the model was better at identifying a buy setup better than
 
 Comparison of cumulative returns can be seen in the graph below and identifies that the SVC matches the actual returns exactly. This makes sense becuase the model is not able to identify a sell point, so the model would exactly track the actual returns.
 
-![SMA9-20-12month](../Images/sma9_20_12months.png)
+![SMA9-20-12month](/Images/sma9_20_12months.png)
 
 # Model Trial 5 Parameters and Summary
 Short Window = 50
@@ -81,7 +81,7 @@ This identifies that the model was better at identifying a sell setup better tha
 
 Comparison of cumulative returns identifies that the model outperforms the actual returns with returns of 1.702 vs 1.591 respectively.
 
-![SMA50-200-12month](../Images/sma50_200_12months.png)
+![SMA50-200-12month](/Images/sma50_200_12months.png)
 
 # Model Trial 6 Parameters and Summary
 Short Window = 50
@@ -96,7 +96,7 @@ This identifies that the model was better at identifying a buy setup better than
 
 Comparison of cumulative returns identifies that the model outperforms the actual returns with returns of 1.834 vs 1.400 respectively.
 
-![SMA50-200-12month](../Images/sma50_200_12months.png)
+![SMA50-200-12month](/Images/sma50_200_12months.png)
 
 ## AdaBoost Returns vs. Actual Returns
 
